@@ -1,0 +1,68 @@
+{
+  "original_path": "tiles_640_final/IMG20240128115636/IMG20240128115636_tile_029.jpg",
+  "status": "success",
+  "processed_at_utc": "2026-11-01T18:19:04+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.4154200553894043,
+      "x_center": 0.5922785758972168,
+      "y_center": 0.21688613891601563,
+      "width": 0.8076509475708008,
+      "height": 0.4322620391845703
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.31933051347732544,
+      "x_center": 0.5664289474487305,
+      "y_center": 0.8953190088272095,
+      "width": 0.7919231414794922,
+      "height": 0.20553278923034668
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.25604698061943054,
+      "x_center": 0.5198407173156738,
+      "y_center": 0.8961472511291504,
+      "width": 0.54708890914917,
+      "height": 0.20507144927978516
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.19992287456989288,
+      "x_center": 0.23772192001342773,
+      "y_center": 0.11679081916809082,
+      "width": 0.47381591796875,
+      "height": 0.23267412185668945
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.1876847743988037,
+      "x_center": 0.847452449798584,
+      "y_center": 0.9030989646911621,
+      "width": 0.3048393249511719,
+      "height": 0.19219722747802734
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.17149734497070312,
+      "x_center": 0.4087974548339844,
+      "y_center": 0.8922523498535156,
+      "width": 0.8032794952392578,
+      "height": 0.2137775421142578
+    }
+  ],
+  "last_error": null,
+  "label_file": "labels/IMG20240128115636/IMG20240128115636_tile_029.txt",
+  "zero_detection_image": null
+}

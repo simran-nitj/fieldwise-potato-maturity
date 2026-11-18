@@ -1,0 +1,13 @@
+{
+  "original_path": "tiles_640_final/IMG20240114122127/IMG20240114122127_tile_000.jpg",
+  "status": "zero_detections",
+  "processed_at_utc": "2026-11-01T18:18:02+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [],
+  "last_error": null,
+  "label_file": "labels/IMG20240114122127/IMG20240114122127_tile_000.txt",
+  "zero_detection_image": "zero_detections/IMG20240114122127/IMG20240114122127_tile_000.jpg"
+}

@@ -1,0 +1,103 @@
+{
+  "experiment": "C:\\Users\\simra\\potato_harvest\\runs\\fieldwise_yolov8n_1032",
+  "created_at_utc": "2026-11-02T11:23:22.908221+00:00",
+  "model_family": "YOLOv8n",
+  "base_checkpoint": "C:\\Users\\simra\\potato_harvest\\runs\\potato_yolov8n\\weights\\best.pt",
+  "checkpoint_sha256_before": "036d9c2371e8d4d87620651b810502b9b938b92fe906353bee1d47c0c2cbf7b3",
+  "dataset_yaml": "C:\\Users\\simra\\potato_harvest\\runs\\fieldwise_yolov8n_1032\\dataset\\data.yaml",
+  "dataset_report": "C:\\Users\\simra\\potato_harvest\\runs\\fieldwise_yolov8n_1032\\dataset_composition_report.md",
+  "manifest": "C:\\Users\\simra\\potato_harvest\\runs\\fieldwise_yolov8n_1032\\dataset\\dataset_manifest.json",
+  "epochs": 100,
+  "imgsz": 640,
+  "batch": 2,
+  "device": 0,
+  "workers": 0,
+  "patience": 20,
+  "seed": 42,
+  "deterministic": true,
+  "amp": true,
+  "optimizer": "auto",
+  "augmentation": {
+    "hsv_h": 0.01,
+    "hsv_s": 0.25,
+    "hsv_v": 0.15,
+    "degrees": 1.0,
+    "translate": 0.05,
+    "scale": 0.15,
+    "fliplr": 0.5,
+    "flipud": 0.0,
+    "mosaic": 0.15,
+    "close_mosaic": 10,
+    "mixup": 0.0,
+    "copy_paste": 0.0
+  },
+  "validation": {
+    "type": "internal parent-photograph holdout",
+    "capture_id": "IMG20231228105347",
+    "independent_plot": false,
+    "test_used_for_checkpoint_selection": false
+  },
+  "group_policy": "train from T1_T1 only; all T1_T2/T1_T3 records excluded from train and validation because those plot groups are in the untouched test set",
+  "gpu_diagnostic": {
+    "cuda_available": true,
+    "torch": "2.11.0+cu128",
+    "torch_cuda": "12.8",
+    "device_count": 1,
+    "device_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+    "synchronized_cuda_probe": 20833206272.0,
+    "free_memory_gib": 3.212597656995058,
+    "total_memory_gib": 3.99951171875,
+    "diagnostic_status": "passed"
+  },
+  "training_status": "completed",
+  "batch_attempts": [
+    {
+      "batch": 2,
+      "started_at_utc": "2026-11-02T11:23:22.919741+00:00",
+      "status": "completed",
+      "ended_at_utc": "2026-11-02T11:30:51.943653+00:00"
+    }
+  ],
+  "review_status_counts": {
+    "approved": 1027,
+    "edited": 4,
+    "rejected": 9,
+    "approved_empty": 1,
+    "pending": 2000
+  },
+  "selected_training": {
+    "images": 326,
+    "boxes": 667,
+    "empty_images": 1,
+    "classes": {
+      "Maturity": 160,
+      "Tuber Bulking": 446,
+      "Vegetative": 61
+    }
+  },
+  "selected_validation": {
+    "images": 35,
+    "boxes": 43,
+    "empty_images": 0,
+    "classes": {
+      "Maturity": 5,
+      "Tuber Bulking": 28,
+      "Vegetative": 10
+    }
+  },
+  "excluded_reviewed_images_other_plot_groups": 745,
+  "test_snapshot_count": 118,
+  "training_run_dir": "C:\\Users\\simra\\potato_harvest\\runs\\fieldwise_yolov8n_1032\\training\\train_batch2",
+  "best_checkpoint": "C:\\Users\\simra\\potato_harvest\\runs\\fieldwise_yolov8n_1032\\checkpoints\\best.pt",
+  "last_checkpoint": "C:\\Users\\simra\\potato_harvest\\runs\\fieldwise_yolov8n_1032\\checkpoints\\last.pt",
+  "checkpoint_hashes": {
+    "best": "eaa3b20f85c2ab0c3d9f7b68a623a4fdfe81f0241a79d3cafe0d39214fdcbc5d",
+    "last": "04b32b4a813a1f2e493f6d62192068ba9841722027f88c51b2c2d1c90fba232f",
+    "original_after_training": "036d9c2371e8d4d87620651b810502b9b938b92fe906353bee1d47c0c2cbf7b3"
+  },
+  "original_checkpoint_unchanged": true,
+  "evaluation_status": "completed",
+  "comparison_report": "C:\\Users\\simra\\potato_harvest\\runs\\fieldwise_yolov8n_1032\\evaluation\\comparison_report.md",
+  "test_original_files_unchanged": true,
+  "amp_check": "Ultralytics optional check skipped because its helper model could not be downloaded offline; AMP remained enabled and recorded losses were finite."
+}

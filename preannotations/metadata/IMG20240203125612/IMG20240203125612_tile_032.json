@@ -1,0 +1,95 @@
+{
+  "original_path": "tiles_640_final/IMG20240203125612/IMG20240203125612_tile_032.jpg",
+  "status": "success",
+  "processed_at_utc": "2026-11-01T18:19:42+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.37291669845581055,
+      "x_center": 0.554354190826416,
+      "y_center": 0.1812270164489746,
+      "width": 0.880244255065918,
+      "height": 0.35997648239135743
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.3453885614871979,
+      "x_center": 0.3844400405883789,
+      "y_center": 0.8975852966308594,
+      "width": 0.7466398239135742,
+      "height": 0.20274677276611328
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.24129344522953033,
+      "x_center": 0.5766831874847412,
+      "y_center": 0.5885533452033996,
+      "width": 0.7768101692199707,
+      "height": 0.4055103063583374
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.2108229547739029,
+      "x_center": 0.4751592636108398,
+      "y_center": 0.5591590881347657,
+      "width": 0.8258102416992188,
+      "height": 0.4564813613891602
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.2008618265390396,
+      "x_center": 0.6040782451629638,
+      "y_center": 0.6838643074035644,
+      "width": 0.7918435096740722,
+      "height": 0.5833744049072266
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.194597065448761,
+      "x_center": 0.6521255016326905,
+      "y_center": 0.8880739212036133,
+      "width": 0.6687726020812989,
+      "height": 0.2203887939453125
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.19098137319087982,
+      "x_center": 0.48880777359008787,
+      "y_center": 0.24481589794158937,
+      "width": 0.9776155471801757,
+      "height": 0.48963179588317873
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.16903941333293915,
+      "x_center": 0.4285717487335205,
+      "y_center": 0.8980911254882813,
+      "width": 0.7973650932312012,
+      "height": 0.20059795379638673
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.16802509129047394,
+      "x_center": 0.5943418979644776,
+      "y_center": 0.8455935955047608,
+      "width": 0.7921925544738769,
+      "height": 0.3088128089904785
+    }
+  ],
+  "last_error": null,
+  "label_file": "labels/IMG20240203125612/IMG20240203125612_tile_032.txt",
+  "zero_detection_image": null
+}

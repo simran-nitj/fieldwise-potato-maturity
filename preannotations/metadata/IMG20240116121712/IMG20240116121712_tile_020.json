@@ -1,0 +1,32 @@
+{
+  "original_path": "tiles_640_final/IMG20240116121712/IMG20240116121712_tile_020.jpg",
+  "status": "success",
+  "processed_at_utc": "2026-11-01T18:18:12+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [
+    {
+      "class_id": 0,
+      "class_name": "Vegetative",
+      "confidence": 0.4412418603897095,
+      "x_center": 0.541903305053711,
+      "y_center": 0.5003352165222168,
+      "width": 0.9161933898925781,
+      "height": 0.9862449645996094
+    },
+    {
+      "class_id": 0,
+      "class_name": "Vegetative",
+      "confidence": 0.20650802552700043,
+      "x_center": 0.69724440574646,
+      "y_center": 0.4967787742614746,
+      "width": 0.6055111885070801,
+      "height": 0.9860628128051758
+    }
+  ],
+  "last_error": null,
+  "label_file": "labels/IMG20240116121712/IMG20240116121712_tile_020.txt",
+  "zero_detection_image": null
+}

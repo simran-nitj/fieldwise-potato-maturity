@@ -1,0 +1,86 @@
+{
+  "original_path": "tiles_640_final/IMG20240112115343/IMG20240112115343_tile_029.jpg",
+  "status": "success",
+  "processed_at_utc": "2026-11-01T18:17:52+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.3734957277774811,
+      "x_center": 0.7697585105895997,
+      "y_center": 0.7635725021362305,
+      "width": 0.4604829788208008,
+      "height": 0.4649566650390625
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.36017778515815735,
+      "x_center": 0.814863920211792,
+      "y_center": 0.3181867659091949,
+      "width": 0.370272159576416,
+      "height": 0.390617835521698
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.32025426626205444,
+      "x_center": 0.28662149906158446,
+      "y_center": 0.4883460998535156,
+      "width": 0.566752576828003,
+      "height": 0.9621648788452148
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.31041136384010315,
+      "x_center": 0.8710210084915161,
+      "y_center": 0.7642654418945313,
+      "width": 0.25795798301696776,
+      "height": 0.46441307067871096
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.2706349194049835,
+      "x_center": 0.31192355155944823,
+      "y_center": 0.7010169982910156,
+      "width": 0.6238471031188965,
+      "height": 0.5851202011108398
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.23789255321025848,
+      "x_center": 0.74574875831604,
+      "y_center": 0.670582389831543,
+      "width": 0.5078400611877442,
+      "height": 0.6588352203369141
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.1616932600736618,
+      "x_center": 0.30170297622680664,
+      "y_center": 0.8013463735580444,
+      "width": 0.5975159645080567,
+      "height": 0.3973072528839111
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.1505110114812851,
+      "x_center": 0.28338375091552737,
+      "y_center": 0.2100581407546997,
+      "width": 0.5621068954467774,
+      "height": 0.4178865909576416
+    }
+  ],
+  "last_error": null,
+  "label_file": "labels/IMG20240112115343/IMG20240112115343_tile_029.txt",
+  "zero_detection_image": null
+}

@@ -1,0 +1,77 @@
+{
+  "original_path": "tiles_640_final/IMG20240207120121/IMG20240207120121_tile_038.jpg",
+  "status": "success",
+  "processed_at_utc": "2026-11-01T18:20:07+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.3460909426212311,
+      "x_center": 0.5802259922027588,
+      "y_center": 0.7862300395965576,
+      "width": 0.5173886299133301,
+      "height": 0.42753992080688474
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.24408398568630219,
+      "x_center": 0.25008316040039064,
+      "y_center": 0.359906530380249,
+      "width": 0.4943058013916016,
+      "height": 0.719813060760498
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.22612117230892181,
+      "x_center": 0.23405809402465821,
+      "y_center": 0.9162118911743165,
+      "width": 0.46811618804931643,
+      "height": 0.16530532836914064
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.19275249540805817,
+      "x_center": 0.2143540859222412,
+      "y_center": 0.9281005859375,
+      "width": 0.4287081718444824,
+      "height": 0.14147491455078126
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.19159895181655884,
+      "x_center": 0.8707195281982422,
+      "y_center": 0.10900663137435913,
+      "width": 0.2585609436035156,
+      "height": 0.21801326274871827
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.15930333733558655,
+      "x_center": 0.34104313850402834,
+      "y_center": 0.29215781688690184,
+      "width": 0.6753218650817872,
+      "height": 0.5843156337738037
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.15178538858890533,
+      "x_center": 0.18953771591186525,
+      "y_center": 0.38731377124786376,
+      "width": 0.3790754318237305,
+      "height": 0.6917558193206788
+    }
+  ],
+  "last_error": null,
+  "label_file": "labels/IMG20240207120121/IMG20240207120121_tile_038.txt",
+  "zero_detection_image": null
+}

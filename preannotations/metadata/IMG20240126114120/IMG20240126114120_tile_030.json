@@ -1,0 +1,68 @@
+{
+  "original_path": "tiles_640_final/IMG20240126114120/IMG20240126114120_tile_030.jpg",
+  "status": "success",
+  "processed_at_utc": "2026-11-01T18:18:57+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.3789902329444885,
+      "x_center": 0.5377249717712402,
+      "y_center": 0.7845689296722412,
+      "width": 0.9141138076782227,
+      "height": 0.4289706230163574
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.34292128682136536,
+      "x_center": 0.4078609347343445,
+      "y_center": 0.15321379899978638,
+      "width": 0.797970986366272,
+      "height": 0.30453598499298096
+    },
+    {
+      "class_id": 0,
+      "class_name": "Vegetative",
+      "confidence": 0.3004155457019806,
+      "x_center": 0.5249297142028808,
+      "y_center": 0.7767209053039551,
+      "width": 0.8906301498413086,
+      "height": 0.44655818939208985
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.25546297430992126,
+      "x_center": 0.7816263198852539,
+      "y_center": 0.12846630811691284,
+      "width": 0.4367473602294922,
+      "height": 0.2558217763900757
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.23259718716144562,
+      "x_center": 0.27135653495788575,
+      "y_center": 0.15595022439956666,
+      "width": 0.5398118972778321,
+      "height": 0.3093970537185669
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.21179340779781342,
+      "x_center": 0.5707402229309082,
+      "y_center": 0.148752760887146,
+      "width": 0.772697639465332,
+      "height": 0.2959403991699219
+    }
+  ],
+  "last_error": null,
+  "label_file": "labels/IMG20240126114120/IMG20240126114120_tile_030.txt",
+  "zero_detection_image": null
+}

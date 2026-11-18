@@ -1,0 +1,68 @@
+{
+  "original_path": "tiles_640_final/IMG20240119145149/IMG20240119145149_tile_058.jpg",
+  "status": "success",
+  "processed_at_utc": "2026-11-01T18:18:19+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.37691113352775574,
+      "x_center": 0.8234616279602051,
+      "y_center": 0.480225944519043,
+      "width": 0.35307674407958983,
+      "height": 0.9531673431396485
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.24415616691112518,
+      "x_center": 0.8295989751815795,
+      "y_center": 0.24787049293518065,
+      "width": 0.3394611835479736,
+      "height": 0.4922234535217285
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.20186470448970795,
+      "x_center": 0.8499373674392701,
+      "y_center": 0.49116421937942506,
+      "width": 0.30012526512146,
+      "height": 0.7048547506332398
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.1853000819683075,
+      "x_center": 0.87324960231781,
+      "y_center": 0.5714480876922607,
+      "width": 0.2530525684356689,
+      "height": 0.520421314239502
+    },
+    {
+      "class_id": 0,
+      "class_name": "Vegetative",
+      "confidence": 0.17149755358695984,
+      "x_center": 0.8340830087661744,
+      "y_center": 0.24187695980072021,
+      "width": 0.3317748546600342,
+      "height": 0.4810163974761963
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.15637525916099548,
+      "x_center": 0.8748866796493531,
+      "y_center": 0.48554468154907227,
+      "width": 0.24957013130187988,
+      "height": 0.9290624618530273
+    }
+  ],
+  "last_error": null,
+  "label_file": "labels/IMG20240119145149/IMG20240119145149_tile_058.txt",
+  "zero_detection_image": null
+}

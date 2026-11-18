@@ -1,0 +1,1044 @@
+{
+  "scope": "All original RGB parent photos, all verified dataset images, and all human-reviewed trainable pseudo-label records.",
+  "counts": {
+    "original_parent_images": 63,
+    "unique_plot_groups": 3,
+    "verified_images": 299,
+    "review_manifest_rows": 3041,
+    "review_statuses": {
+      "approved": 1027,
+      "edited": 4,
+      "rejected": 9,
+      "approved_empty": 1,
+      "pending": 2000
+    },
+    "trainable_reviewed_pseudo_images": 1032,
+    "trainable_reviewed_pseudo_boxes": 2193,
+    "missing_or_invalid_records": 0
+  },
+  "plot_groups": {
+    "T1_T1": {
+      "original_parent_images": 19,
+      "parent_ids": [
+        "IMG20231227115125",
+        "IMG20231228105347",
+        "IMG20231229110435",
+        "IMG20231231111259",
+        "IMG20240102112822",
+        "IMG20240104121308",
+        "IMG20240106121932",
+        "IMG20240107131745",
+        "IMG20240112113135",
+        "IMG20240125115144",
+        "IMG20240126114120",
+        "IMG20240128115636",
+        "IMG20240130122409",
+        "IMG20240201130711",
+        "IMG20240203114404",
+        "IMG20240205121347",
+        "IMG20240207120121",
+        "IMG20240209113333",
+        "IMG20240211141324"
+      ],
+      "verified": {
+        "train": {
+          "images": 74,
+          "boxes": 83,
+          "classes": {
+            "Maturity": 9,
+            "Tuber Bulking": 47,
+            "Vegetative": 27
+          }
+        },
+        "val": {
+          "images": 0,
+          "boxes": 0,
+          "classes": {}
+        },
+        "test": {
+          "images": 0,
+          "boxes": 0,
+          "classes": {}
+        }
+      },
+      "reviewed_pseudo": {
+        "images": 287,
+        "boxes": 627,
+        "classes": {
+          "Maturity": 156,
+          "Tuber Bulking": 427,
+          "Vegetative": 44
+        },
+        "statuses": {
+          "approved": 286,
+          "approved_empty": 1
+        }
+      }
+    },
+    "T1_T2": {
+      "original_parent_images": 23,
+      "parent_ids": [
+        "IMG20231224110533",
+        "IMG20231225113918",
+        "IMG20231227114230",
+        "IMG20231228111007",
+        "IMG20231229112014",
+        "IMG20231231113016",
+        "IMG20240102115006",
+        "IMG20240103114344",
+        "IMG20240104123203",
+        "IMG20240106123846",
+        "IMG20240109123048",
+        "IMG20240112115343",
+        "IMG20240114121818",
+        "IMG20240116121452",
+        "IMG20240119145149",
+        "IMG20240122115923",
+        "IMG20240123143907",
+        "IMG20240130123959",
+        "IMG20240201133138",
+        "IMG20240203125612",
+        "IMG20240205124640",
+        "IMG20240207122218",
+        "IMG20240209121038"
+      ],
+      "verified": {
+        "train": {
+          "images": 90,
+          "boxes": 128,
+          "classes": {
+            "Tuber Bulking": 59,
+            "Vegetative": 49,
+            "Maturity": 20
+          }
+        },
+        "val": {
+          "images": 0,
+          "boxes": 0,
+          "classes": {}
+        },
+        "test": {
+          "images": 28,
+          "boxes": 38,
+          "classes": {
+            "Tuber Bulking": 20,
+            "Vegetative": 11,
+            "Maturity": 7
+          }
+        }
+      },
+      "reviewed_pseudo": {
+        "images": 381,
+        "boxes": 789,
+        "classes": {
+          "Vegetative": 157,
+          "Tuber Bulking": 503,
+          "Maturity": 129
+        },
+        "statuses": {
+          "approved": 380,
+          "edited": 1
+        }
+      }
+    },
+    "T1_T3": {
+      "original_parent_images": 21,
+      "parent_ids": [
+        "IMG20231224110751",
+        "IMG20231225114040",
+        "IMG20231227114428",
+        "IMG20231228111217",
+        "IMG20231229112233",
+        "IMG20231231113257",
+        "IMG20240102115240",
+        "IMG20240103114547",
+        "IMG20240104123500",
+        "IMG20240106124149",
+        "IMG20240109123516",
+        "IMG20240112115630",
+        "IMG20240114122127",
+        "IMG20240116121712",
+        "IMG20240119145538",
+        "IMG20240122120223",
+        "IMG20240123144046",
+        "IMG20240130124252",
+        "IMG20240203125843",
+        "IMG20240205124901",
+        "IMG20240207122513"
+      ],
+      "verified": {
+        "train": {
+          "images": 35,
+          "boxes": 60,
+          "classes": {
+            "Tuber Bulking": 23,
+            "Vegetative": 19,
+            "Maturity": 18
+          }
+        },
+        "val": {
+          "images": 41,
+          "boxes": 48,
+          "classes": {
+            "Maturity": 9,
+            "Tuber Bulking": 17,
+            "Vegetative": 22
+          }
+        },
+        "test": {
+          "images": 31,
+          "boxes": 47,
+          "classes": {
+            "Maturity": 21,
+            "Tuber Bulking": 17,
+            "Vegetative": 9
+          }
+        }
+      },
+      "reviewed_pseudo": {
+        "images": 364,
+        "boxes": 777,
+        "classes": {
+          "Maturity": 140,
+          "Tuber Bulking": 413,
+          "Vegetative": 224
+        },
+        "statuses": {
+          "approved": 361,
+          "edited": 3
+        }
+      }
+    }
+  },
+  "original_parents": [
+    {
+      "capture_id": "IMG20231224110533",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20231224110533.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231224110751",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20231224110751.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231225113918",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20231225113918.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231225114040",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20231225114040.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231227114230",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20231227114230.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231227114428",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20231227114428.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231227115125",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20231227115125.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231228105347",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20231228105347.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231228111007",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20231228111007.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231228111217",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20231228111217.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231229110435",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20231229110435.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231229112014",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20231229112014.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231229112233",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20231229112233.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231231111259",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20231231111259.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231231113016",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20231231113016.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20231231113257",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20231231113257.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240102112822",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240102112822.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240102115006",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240102115006.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240102115240",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240102115240.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240103114344",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240103114344.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240103114547",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240103114547.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240104121308",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240104121308.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240104123203",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240104123203.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240104123500",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240104123500.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240106121932",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240106121932.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240106123846",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240106123846.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240106124149",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240106124149.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240107131745",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240107131745.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240109123048",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240109123048.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240109123516",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240109123516.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240112113135",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240112113135.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240112115343",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240112115343.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240112115630",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240112115630.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240114121818",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240114121818.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240114122127",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240114122127.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240116121452",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240116121452.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240116121712",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240116121712.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240119145149",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240119145149.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240119145538",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240119145538.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240122115923",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240122115923.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240122120223",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240122120223.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240123143907",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240123143907.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240123144046",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240123144046.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240125115144",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240125115144.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240126114120",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240126114120.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240128115636",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240128115636.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240130122409",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240130122409.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240130123959",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240130123959.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240130124252",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240130124252.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240201130711",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240201130711.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240201133138",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240201133138.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240203114404",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240203114404.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240203125612",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240203125612.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240203125843",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240203125843.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240205121347",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240205121347.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240205124640",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240205124640.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240205124901",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240205124901.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240207120121",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240207120121.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240207122218",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240207122218.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240207122513",
+      "plot_group": "T1_T3",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T3\\IMG20240207122513.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240209113333",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240209113333.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240209121038",
+      "plot_group": "T1_T2",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T2\\IMG20240209121038.jpg",
+      "source_file_count": 1
+    },
+    {
+      "capture_id": "IMG20240211141324",
+      "plot_group": "T1_T1",
+      "path": "dataset\\RGB images\\Year2023-24_RGB\\T1_T1\\IMG20240211141324.jpg",
+      "source_file_count": 1
+    }
+  ],
+  "sample_parent_counts": {
+    "IMG20231224110533": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {
+        "test": 28
+      },
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20231224110751": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {
+        "test": 31
+      },
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20231225113918": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {
+        "train": 38
+      },
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20231225114040": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {
+        "train": 35
+      },
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20231227114230": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {
+        "train": 43
+      },
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20231227114428": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {
+        "val": 41
+      },
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20231227115125": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {
+        "train": 39
+      },
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20231228105347": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {
+        "train": 35
+      },
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20231228111007": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {
+        "train": 9
+      },
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 32,
+        "edited": 1
+      }
+    },
+    "IMG20231228111217": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 38,
+        "edited": 3
+      }
+    },
+    "IMG20231229110435": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 44
+      }
+    },
+    "IMG20231229112014": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 44
+      }
+    },
+    "IMG20231229112233": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 41
+      }
+    },
+    "IMG20231231111259": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 44
+      }
+    },
+    "IMG20231231113016": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 49
+      }
+    },
+    "IMG20231231113257": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 46
+      }
+    },
+    "IMG20240102112822": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 50
+      }
+    },
+    "IMG20240102115006": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 49
+      }
+    },
+    "IMG20240102115240": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 49
+      }
+    },
+    "IMG20240103114344": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 49
+      }
+    },
+    "IMG20240103114547": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 48
+      }
+    },
+    "IMG20240104121308": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 47
+      }
+    },
+    "IMG20240104123203": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 49
+      }
+    },
+    "IMG20240104123500": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 54
+      }
+    },
+    "IMG20240106121932": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 48,
+        "approved_empty": 1
+      }
+    },
+    "IMG20240106123846": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 53
+      }
+    },
+    "IMG20240106124149": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 59
+      }
+    },
+    "IMG20240107131745": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 53
+      }
+    },
+    "IMG20240109123048": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 55
+      }
+    },
+    "IMG20240109123516": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {
+        "approved": 26
+      }
+    },
+    "IMG20240112113135": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240112115343": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240112115630": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240114121818": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240114122127": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240116121452": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240116121712": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240119145149": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240119145538": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240122115923": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240122120223": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240123143907": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240123144046": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240125115144": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240126114120": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240128115636": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240130122409": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240130123959": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240130124252": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240201130711": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240201133138": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240203114404": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240203125612": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240203125843": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240205121347": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240205124640": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240205124901": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240207120121": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240207122218": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240207122513": {
+      "plot_group": "T1_T3",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240209113333": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240209121038": {
+      "plot_group": "T1_T2",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    },
+    "IMG20240211141324": {
+      "plot_group": "T1_T1",
+      "verified_tiles_by_existing_split": {},
+      "reviewed_pseudo_tiles_by_status": {}
+    }
+  },
+  "parent_images_spanning_verified_splits": {},
+  "original_parents_without_unique_plot_metadata": [],
+  "existing_plot_groups_by_split": {
+    "train": [
+      "T1_T1",
+      "T1_T2",
+      "T1_T3"
+    ],
+    "val": [
+      "T1_T3"
+    ],
+    "test": [
+      "T1_T2",
+      "T1_T3"
+    ],
+    "reviewed_pseudo": [
+      "T1_T1",
+      "T1_T2",
+      "T1_T3"
+    ]
+  },
+  "existing_plot_group_overlaps": {
+    "train-val": [
+      "T1_T3"
+    ],
+    "train-test": [
+      "T1_T2",
+      "T1_T3"
+    ],
+    "val-test": [
+      "T1_T3"
+    ]
+  },
+  "proposed_group_assignment": {
+    "train": [
+      "T1_T1"
+    ],
+    "validation": [],
+    "test": [
+      "T1_T2",
+      "T1_T3"
+    ],
+    "valid_complete_split": false,
+    "reason": "Existing test groups are T1_T2 and T1_T3. Of the three known plots, only T1_T1 remains outside test, so there is no independent plot group for both training and validation. Existing validation is T1_T3 and overlaps test."
+  },
+  "validation_class_distribution": {
+    "existing_train": {
+      "Maturity": 47,
+      "Tuber Bulking": 129,
+      "Vegetative": 95
+    },
+    "existing_val": {
+      "Maturity": 9,
+      "Tuber Bulking": 17,
+      "Vegetative": 22
+    },
+    "existing_test": {
+      "Tuber Bulking": 37,
+      "Vegetative": 20,
+      "Maturity": 28
+    }
+  },
+  "issues": [],
+  "limitations": [
+    "Only three independent source plot IDs are present.",
+    "Existing validation is drawn from T1_T3, which is also represented in test.",
+    "Existing test groups T1_T2 and T1_T3 consume two of three plots; the remaining T1_T1 cannot provide both training and independent validation.",
+    "Reviewed pseudo-labels are reviewer-screened suggestions, not equivalent to independently verified ground truth."
+  ]
+}

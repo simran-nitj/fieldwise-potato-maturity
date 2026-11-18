@@ -1,0 +1,24 @@
+{
+  "updated_at_utc": "2026-11-01T18:20:38+00:00",
+  "model_checkpoint": "best.pt",
+  "confidence_threshold": 0.15,
+  "device_requested": "auto",
+  "device_selected": "CUDA",
+  "batch_size": 4,
+  "total_tiles_scanned": 3340,
+  "valid_annotated_images_excluded": 299,
+  "eligible_images": 3041,
+  "processed_successfully": 3017,
+  "zero_detections": 24,
+  "failed": 0,
+  "pending": 0,
+  "total_detection_instances": 7249,
+  "class_instances": {
+    "Vegetative": 1420,
+    "Tuber Bulking": 3669,
+    "Maturity": 2160
+  },
+  "processing_records": 3041,
+  "every_eligible_image_has_record": true,
+  "missing_processing_records": []
+}

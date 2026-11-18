@@ -1,0 +1,8 @@
+path: C:\Users\simra\potato_harvest\runs\fieldwise_yolov8n_1032
+train: dataset/images/train
+val: dataset/images/val
+test: evaluation/untouched_test/images/test
+names:
+  0: Vegetative
+  1: Tuber Bulking
+  2: Maturity

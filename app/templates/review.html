@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block title %}Pseudo-annotation review · Fieldwise{% endblock %}
+{% block breadcrumb %}Pseudo-annotation review{% endblock %}
+{% block head %}<link rel="stylesheet" href="{{ url_for('static', filename='css/review.css') }}">{% endblock %}
+{% block content %}
+<main class="review-app" id="review-app" data-initial-item="{{ initial_item }}">
+  <header class="review-page-head">
+    <div><div class="eyebrow">HUMAN-IN-THE-LOOP WORKSPACE</div><h1>Pseudo-annotation review</h1><p>Inspect model suggestions, correct boxes when needed, and explicitly record each review decision.</p></div>
+    <a class="button outline" href="{{ url_for('main.about') }}">Review policy</a>
+  </header>
+
+  <section class="review-stats" aria-label="Review status totals">
+    <article class="review-stat"><span>Total images</span><strong data-count="total">{{ counts.total }}</strong></article>
+    <article class="review-stat pending"><span>Pending</span><strong data-count="pending">{{ counts.pending }}</strong></article>
+    <article class="review-stat approved"><span>Approved</span><strong data-count="approved">{{ counts.approved }}</strong></article>
+    <article class="review-stat rejected"><span>Rejected</span><strong data-count="rejected">{{ counts.rejected }}</strong></article>
+    <article class="review-stat edited"><span>Edited</span><strong data-count="edited">{{ counts.edited }}</strong></article>
+    <article class="review-stat empty"><span>Approved empty</span><strong data-count="approved_empty">{{ counts.approved_empty }}</strong></article>
+  </section>
+  <section class="review-progress-panel"><div><strong><span data-count="reviewed">{{ counts.reviewed }}</span> reviewed</strong><span class="progress-percent"><span data-count="progress_percent">{{ counts.progress_percent }}</span>% complete</span></div><div class="review-progress-track"><span id="review-progress-fill" style="width:{{ counts.progress_percent }}%"></span></div></section>
+
+  <section class="review-workspace">
+    <aside class="review-queue panel">
+      <div class="review-queue-head"><div><div class="eyebrow">REVIEW QUEUE</div><h2>Find an image</h2></div><span id="queue-count">—</span></div>
+      <label class="review-search-label" for="review-search">Search filename</label><div class="review-search"><input id="review-search" type="search" placeholder="IMG…tile_001.jpg" autocomplete="off"><button id="search-button" type="button" aria-label="Search">⌕</button></div>
+      <div class="review-filters" role="group" aria-label="Filter review status">
+        <button type="button" class="review-filter active" data-status="pending">Pending <span data-count="pending">{{ counts.pending }}</span></button>
+        <button type="button" class="review-filter" data-status="approved">Approved <span data-count="approved">{{ counts.approved }}</span></button>
+        <button type="button" class="review-filter" data-status="rejected">Rejected <span data-count="rejected">{{ counts.rejected }}</span></button>
+        <button type="button" class="review-filter" data-status="edited">Edited <span data-count="edited">{{ counts.edited }}</span></button>
+        <button type="button" class="review-filter" data-status="approved_empty">Approved Empty <span data-count="approved_empty">{{ counts.approved_empty }}</span></button>
+      </div>
+      <div class="review-queue-current"><span class="queue-dot"></span><span id="queue-current-label">Loading review queue…</span></div>
+    </aside>
+
+    <section class="review-detail panel" aria-live="polite">
+      <header class="review-item-head"><div class="review-item-title"><div class="eyebrow">CURRENT IMAGE <span id="item-position">—</span></div><h2 id="item-filename">Loading…</h2><div class="review-item-meta"><span id="item-box-count">—</span><span class="review-status-badge" id="item-status">Pending</span></div></div><div class="review-nav"><button id="previous-button" class="button outline" type="button" title="Previous image (P)">← Previous <kbd>P</kbd></button><button id="next-button" class="button outline" type="button" title="Next image (N)">Next <kbd>N</kbd> →</button></div></header>
+
+      <div class="review-canvas-toolbar"><div class="view-toggle" role="group" aria-label="Image view"><button type="button" class="selected" data-view="annotated">Predicted boxes</button><button type="button" data-view="original">Original only</button></div><div class="zoom-controls"><button id="zoom-out" type="button" aria-label="Zoom out">−</button><span id="zoom-label">100%</span><button id="zoom-in" type="button" aria-label="Zoom in">+</button><button id="zoom-reset" type="button">Fit</button></div></div>
+
+      <div class="review-canvas-frame" id="canvas-frame"><canvas id="annotation-canvas" aria-label="Image and bounding box annotations"></canvas><div class="canvas-empty" id="canvas-empty" hidden></div></div>
+      <div class="canvas-caption"><span id="canvas-view-caption">Predicted boxes shown · Confidence is the detector score, not accuracy.</span><span id="image-dimensions"></span></div>
+
+      <section class="box-editor" id="box-editor" hidden>
+        <div class="box-editor-heading"><div><div class="eyebrow">CORRECTED LABELS</div><h3>Edit bounding boxes</h3></div><div class="editor-tools"><span class="tool-hint">Click-drag to draw · drag a box to move · drag handle to resize</span><label for="new-box-class">New box class</label><select id="new-box-class"><option value="0">Vegetative</option><option value="1">Tuber Bulking</option><option value="2">Maturity</option></select><button id="delete-box" type="button" class="button danger-outline" disabled>Delete selected</button></div></div>
+        <div class="box-list" id="box-list"></div>
+        <div class="edit-actions"><button id="save-edits" type="button" class="button primary" title="Save corrected labels (S)">Save corrections <kbd>S</kbd></button><button id="cancel-edits" type="button" class="button outline">Cancel edits</button><span>Saving writes only to <code>preannotations/approved_labels/</code> and marks this image Edited.</span></div>
+      </section>
+
+      <section class="review-detections"><div class="review-detections-head"><div><div class="eyebrow">MODEL OUTPUT</div><h3>Predicted objects</h3></div><span id="prediction-summary">—</span></div><div class="prediction-list" id="prediction-list"></div><div class="no-predictions-note" id="no-predictions-note" hidden>No objects were predicted. Inspect the original before choosing Approve Empty.</div></section>
+
+      <section class="review-decision-bar"><div class="reviewer-field"><label for="reviewer-name">Reviewer name or ID</label><input id="reviewer-name" maxlength="100" placeholder="Enter reviewer name"></div><div class="review-actions"><button id="edit-button" type="button" class="button outline" title="Edit annotations (E)">Edit boxes <kbd>E</kbd></button><button id="reject-button" type="button" class="button reject-button" title="Reject (R)">Reject <kbd>R</kbd></button><button id="approve-empty-button" type="button" class="button empty-button" hidden>Approve Empty</button><button id="approve-button" type="button" class="button approve-button" title="Approve predictions (A)">Approve <kbd>A</kbd></button></div></section>
+      <div class="review-message" id="review-message" role="status" aria-live="polite"></div>
+      <footer class="review-safety-note"><strong>Human review required.</strong> Pending and rejected predictions are never training labels. Original images, original pseudo-labels, verified annotations, and model weights are read-only in this workflow.</footer>
+    </section>
+  </section>
+</main>
+{% endblock %}
+{% block scripts %}<script src="{{ url_for('static', filename='js/review.js') }}" defer></script>{% endblock %}

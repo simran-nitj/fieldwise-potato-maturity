@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block title %}Overview · Fieldwise{% endblock %}
+{% block breadcrumb %}Overview{% endblock %}
+{% block content %}
+<section class="welcome-row">
+  <div class="welcome-copy">
+    <div class="eyebrow"><span class="eyebrow-line"></span> FIELD INTELLIGENCE</div>
+    <h1>See the crop.<br><em>Plan the next step.</em></h1>
+    <p class="intro">Review visible potato growth stages from field photos, then use a transparent planning estimate as one input to a field decision.</p>
+    <div class="hero-actions"><a class="button primary" href="#assessment">Start a field assessment <span>↗</span></a><a class="text-link" href="{{ url_for('main.about') }}">How Fieldwise works <span>→</span></a></div>
+  </div>
+  <div class="hero-art" aria-hidden="true"><div class="sun"></div><div class="hill hill-back"></div><div class="hill hill-front"></div><div class="plant plant-one"><i></i><b></b><strong></strong></div><div class="plant plant-two"><i></i><b></b><strong></strong></div><div class="plant plant-three"><i></i><b></b><strong></strong></div><div class="hero-tag"><span>OBSERVE<br>IN THE FIELD</span><b>↗</b></div></div>
+</section>
+
+<section class="status-strip" aria-label="Model and upload status">
+  <div class="status-cell"><span class="status-dot {{ 'green' if model_ready else 'amber' }}"></span><div><small>MODEL STATUS</small><strong>{{ 'Ready for inference' if model_ready else 'Unavailable' }}</strong></div></div>
+  <div class="status-cell"><span class="mini-icon">▧</span><div><small>INPUT FORMATS</small><strong>JPG · JPEG · PNG</strong></div></div>
+  <div class="status-cell"><span class="mini-icon">◎</span><div><small>INFERENCE DEVICE</small><strong>{{ model_device }}{% if model_device == 'CUDA' %} · GPU{% else %} · fallback{% endif %}</strong></div></div>
+  <div class="status-cell"><span class="mini-icon">⌁</span><div><small>ASSESSMENT LIMIT</small><strong>12 images · 8 MB each</strong></div></div>
+</section>
+{% if not model_ready %}<div class="notice warning"><strong>Model inference is unavailable.</strong> {{ model_error }} Upload controls are disabled until the trained project checkpoint can be loaded.</div>{% endif %}
+
+<div class="section-heading"><div><div class="eyebrow">YOUR FIELD WORKSPACE</div><h2>Assessment overview</h2></div><a class="text-link" href="{{ url_for('main.history') }}">Open full history <span>→</span></a></div>
+<section class="overview-grid">
+  <article class="metric-card"><div class="metric-top"><span class="metric-icon green-bg">⌖</span><span class="metric-caption">SAVED ASSESSMENTS</span></div><strong class="metric-value">{{ summary.assessment_count }}</strong><span class="metric-detail">All completed local records</span></article>
+  <article class="metric-card"><div class="metric-top"><span class="metric-icon gold-bg">▧</span><span class="metric-caption">IMAGES ANALYZED</span></div><strong class="metric-value">{{ summary.image_count }}</strong><span class="metric-detail">Across saved assessments</span></article>
+  <article class="metric-card"><div class="metric-top"><span class="metric-icon mint-bg">✿</span><span class="metric-caption">DETECTIONS OBSERVED</span></div><strong class="metric-value">{{ summary.detection_count }}</strong><span class="metric-detail">Model boxes across all saved records</span></article>
+</section>
+
+<section class="work-grid" id="assessment">
+  <article class="panel assessment-panel">
+    <div class="panel-heading"><div><div class="eyebrow">NEW FIELD VISIT</div><h2>Start an assessment</h2><p>Enter field details, then add one or more crop images.</p></div><span class="round-icon">↗</span></div>
+    <form action="{{ url_for('main.create_assessment_route') }}" method="post" enctype="multipart/form-data" id="assessment-form">
+      <div class="form-grid">
+        <label>Field name or ID <span class="optional">OPTIONAL</span><input name="field_name" maxlength="100" placeholder="e.g. North plot · Farm 01"></label>
+        <label>Planting date <span class="required">REQUIRED</span><input type="date" name="planting_date" required></label>
+        <label>Potato variety <span class="optional">OPTIONAL</span><input name="variety" maxlength="100" placeholder="Enter if known"></label>
+        <label>Location <span class="optional">OPTIONAL</span><input name="region" maxlength="100" placeholder="Village, district"></label>
+      </div>
+      <details class="assumptions"><summary>Harvest estimate assumptions <span class="required">Duration is optional</span></summary><label class="duration-label">Assumed crop duration (planting to harvest)<span class="field-hint">Enter 60–180 days only if known. No variety-specific value is assumed.</span><div class="duration-input"><input type="number" name="assumed_duration_days" min="60" max="180" inputmode="numeric" placeholder="e.g. 100"><span>days</span></div></label></details>
+      <label class="notes-label">Field notes <span class="optional">OPTIONAL</span><textarea name="notes" rows="2" maxlength="1000" placeholder="Recent weather, irrigation, or observations…"></textarea></label>
+      <div class="upload-label">FIELD IMAGES <span>UP TO 12 · JPG / JPEG / PNG · 8 MB EACH</span></div>
+      <label class="dropzone" for="images"><input id="images" type="file" name="images" accept="image/jpeg,image/png,.jpg,.jpeg,.png" multiple {% if not model_ready %}disabled{% endif %}><span class="upload-symbol">↑</span><strong>Drop images here or <u>browse files</u></strong><small>Choose clear photos with visible potato plants</small></label>
+      <div class="upload-feedback" id="upload-feedback" aria-live="polite"></div>
+      <div class="preview-list" id="preview-list"></div>
+      <div class="form-actions"><button class="button primary" type="submit" {% if not model_ready %}disabled{% endif %}>Analyze field images <span>→</span></button><span class="privacy-note">Files are stored locally with this assessment.</span></div>
+    </form>
+  </article>
+  <aside class="panel demo-panel"><div class="demo-art"><span class="demo-sun"></span><span class="demo-field"></span><span class="demo-leaf leaf-a"></span><span class="demo-leaf leaf-b"></span><span class="demo-leaf leaf-c"></span><span class="demo-scan">✦</span></div><div class="eyebrow">PROJECT DEMONSTRATION</div><h3>Explore a real model run</h3><p>Analyze three example images from the project's existing test split. These are demonstration inputs, not current field observations.</p><form action="{{ url_for('main.demo_assessment') }}" method="post"><button class="button outline full" {% if not model_ready or not demos %}disabled{% endif %}>Run sample assessment <span>→</span></button></form><div class="demo-foot"><span>▧</span> {{ demos|length }} sample images available</div></aside>
+</section>
+
+<section class="insight-grid">
+  <article class="panel stage-overview"><div class="panel-heading compact"><div><div class="eyebrow">OBSERVED IN SAVED ASSESSMENTS</div><h2>Growth-stage overview</h2></div><span class="muted-count">{{ summary.detection_count }} detections</span></div>
+    {% if summary.detection_count %}<div class="stage-bars">{% for stage in ['Vegetative','Tuber Bulking','Maturity'] %}<div class="stage-bar-row"><div><span class="stage-dot stage-{{ loop.index }}"></span><span>{{ stage }}</span><strong>{{ summary.stage_counts[stage] }}</strong><small>{{ summary.distribution[stage] }}%</small></div><div class="bar-track"><span class="bar-fill stage-fill-{{ loop.index }}" style="width:{{ summary.distribution[stage] }}%"></span></div></div>{% endfor %}</div><p class="micro-disclaimer">Shares are proportions of detected boxes across saved assessments, not the proportion of the whole crop.</p>{% else %}<div class="empty-state"><span>✿</span><strong>No saved detections yet</strong><p>Stage totals will appear after a field assessment.</p></div>{% endif %}
+  </article>
+  <article class="panel planning-panel"><div class="panel-heading compact"><div><div class="eyebrow">PLANNING CONTEXT</div><h2>Latest harvest window</h2></div><span class="estimate-icon">⌁</span></div>
+    {% set latest = history[0] if history else none %}{% if latest and latest.estimation and latest.estimation.available %}<div class="planning-date">{{ latest.estimation.earliest }} <span>to</span> {{ latest.estimation.latest }}</div><p>For <strong>{{ latest.field_name or 'Field assessment' }}</strong>, using a {{ latest.estimation.assumed_duration_days }}-day assumed duration.</p><a class="text-link" href="{{ url_for('main.results', assessment_id=latest.id) }}">Review estimate and evidence →</a><p class="micro-disclaimer">Provisional rule-based estimate; confirm readiness in the field.</p>{% else %}<div class="empty-state"><span>◷</span><strong>No estimate available</strong><p>Provide a planting date, duration, and observed detections in an assessment.</p></div>{% endif %}
+  </article>
+</section>
+
+<section class="lower-grid" id="history">
+  <article class="panel history-panel"><div class="panel-heading compact"><div><div class="eyebrow">RECENT ACTIVITY</div><h2>Prediction history</h2></div><a class="text-link" href="{{ url_for('main.history') }}">View all →</a></div>
+  {% if history %}<div class="history-list">{% for item in history %}<a class="history-row" href="{{ url_for('main.results', assessment_id=item.id) }}"><span class="history-thumb">♧</span><span class="history-name"><strong>{{ item.field_name or 'Unnamed field' }}</strong><small>{{ item.created_at }} · {{ item.images|length }} image{{ '' if item.images|length == 1 else 's' }}</small></span><span class="history-detections">{{ item.total_detections }} <small>detections</small></span><span class="row-arrow">↗</span></a>{% endfor %}</div>{% else %}<div class="empty-state"><span>⌖</span><strong>No assessments yet</strong><p>Start an assessment or run the project demo.</p></div>{% endif %}</article>
+  <article class="panel sensor-panel"><div class="panel-heading compact"><div><div class="eyebrow">OPTIONAL DATA CONTEXT</div><h2>Historical sensor data</h2></div><span class="sensor-icon">⌁</span></div>
+  {% if sensor %}<div class="historical-tag"><i></i> HISTORICAL DATA · {{ sensor.sheet }}</div><p class="sensor-description">Workbook readings are independent historical context. They are not live, and are not linked to this field assessment.</p>{% if sensor.averages %}<div class="sensor-stats">{% for item in sensor.averages %}<div><strong>{{ item.average }}</strong><small>{{ item.name }}</small></div>{% endfor %}</div>{% endif %}<div class="sensor-foot">{{ sensor.row_count if sensor.row_count is not none else '—' }} hourly records{% if sensor.date_range %} · {{ sensor.date_range }}{% endif %}</div>{% else %}<div class="empty-state compact-empty"><strong>No workbook found</strong><p>Historical sensor workbook is not available.</p></div>{% endif %}</article>
+</section>
+{% endblock %}

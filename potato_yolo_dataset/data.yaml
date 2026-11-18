@@ -1,0 +1,8 @@
+path: C:\Users\simra\potato_harvest\potato_yolo_dataset
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: Vegetative
+  1: Tuber Bulking
+  2: Maturity

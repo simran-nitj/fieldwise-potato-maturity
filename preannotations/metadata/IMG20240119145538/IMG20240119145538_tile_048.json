@@ -1,0 +1,68 @@
+{
+  "original_path": "tiles_640_final/IMG20240119145538/IMG20240119145538_tile_048.jpg",
+  "status": "success",
+  "processed_at_utc": "2026-11-01T18:18:22+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.5215871334075928,
+      "x_center": 0.7272697925567627,
+      "y_center": 0.49870452880859373,
+      "width": 0.5454604148864746,
+      "height": 0.9974090576171875
+    },
+    {
+      "class_id": 0,
+      "class_name": "Vegetative",
+      "confidence": 0.4558353126049042,
+      "x_center": 0.7512897968292236,
+      "y_center": 0.5007489204406739,
+      "width": 0.4974204063415527,
+      "height": 0.9985021591186524
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.3977939188480377,
+      "x_center": 0.28095278739929197,
+      "y_center": 0.18472368717193605,
+      "width": 0.5545904159545898,
+      "height": 0.36739201545715333
+    },
+    {
+      "class_id": 0,
+      "class_name": "Vegetative",
+      "confidence": 0.32599297165870667,
+      "x_center": 0.17677253484725952,
+      "y_center": 0.6773459434509277,
+      "width": 0.35354506969451904,
+      "height": 0.6453081130981445
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.23784266412258148,
+      "x_center": 0.4078952789306641,
+      "y_center": 0.18247411251068116,
+      "width": 0.8157905578613281,
+      "height": 0.3637237548828125
+    },
+    {
+      "class_id": 0,
+      "class_name": "Vegetative",
+      "confidence": 0.1700773537158966,
+      "x_center": 0.2870647668838501,
+      "y_center": 0.17866833209991456,
+      "width": 0.5713305950164795,
+      "height": 0.3549436092376709
+    }
+  ],
+  "last_error": null,
+  "label_file": "labels/IMG20240119145538/IMG20240119145538_tile_048.txt",
+  "zero_detection_image": null
+}

@@ -1,0 +1,15 @@
+{
+  "conclusion": "Fine-tuned checkpoint has lower test mAP50_95 by 0.0476; no accuracy improvement is demonstrated.",
+  "checkpoint": "C:\\Users\\simra\\potato_harvest\\runs\\potato_yolov8n_finetune\\20261102_012219\\training\\train_batch2\\weights\\best.pt",
+  "experiment_dir": "C:\\Users\\simra\\potato_harvest\\runs\\potato_yolov8n_finetune\\20261102_012219",
+  "prepared_yaml": "C:\\Users\\simra\\potato_harvest\\runs\\potato_yolov8n_finetune\\20261102_012219\\dataset\\data.yaml",
+  "manifest": "C:\\Users\\simra\\potato_harvest\\runs\\potato_yolov8n_finetune\\20261102_012219\\dataset\\dataset_manifest.json",
+  "config": "C:\\Users\\simra\\potato_harvest\\runs\\potato_yolov8n_finetune\\20261102_012219\\training_config.json",
+  "training_results": "C:\\Users\\simra\\potato_harvest\\runs\\potato_yolov8n_finetune\\20261102_012219\\training\\train_batch2\\results.csv",
+  "training_plot": "C:\\Users\\simra\\potato_harvest\\runs\\potato_yolov8n_finetune\\20261102_012219\\training_curves.png",
+  "comparison": "C:\\Users\\simra\\potato_harvest\\runs\\potato_yolov8n_finetune\\20261102_012219\\comparison_report.json",
+  "unreviewed_pseudo_images_excluded": 3041,
+  "approved_corrected_pseudo_images_used": 0,
+  "test_files_unchanged": true,
+  "validation_independent_by_source_plot": false
+}

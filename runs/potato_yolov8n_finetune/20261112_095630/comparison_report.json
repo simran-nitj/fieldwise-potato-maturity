@@ -1,0 +1,169 @@
+{
+  "test_split": "C:\\Users\\simra\\potato_harvest\\potato_yolo_dataset\\images\\test",
+  "test_image_count": 59,
+  "evaluation_config": {
+    "data": "C:\\Users\\simra\\potato_harvest\\potato_yolo_dataset\\data.yaml",
+    "split": "test",
+    "imgsz": 640,
+    "batch": 1,
+    "device": 0,
+    "plots": true,
+    "save_json": true,
+    "conf": 0.001
+  },
+  "original": {
+    "precision": 0.2589398714844556,
+    "recall": 0.7158301158301158,
+    "mAP50": 0.37560755159602977,
+    "mAP50_95": 0.23653287910699916,
+    "per_class": {
+      "Vegetative": {
+        "precision": 0.30679058075668153,
+        "recall": 0.3,
+        "mAP50": 0.31110535463156214,
+        "mAP50_95": 0.19833944893288008
+      },
+      "Tuber Bulking": {
+        "precision": 0.284570678526699,
+        "recall": 0.918918918918919,
+        "mAP50": 0.49851640231318517,
+        "mAP50_95": 0.340508597477258
+      },
+      "Maturity": {
+        "precision": 0.1854583551699861,
+        "recall": 0.9285714285714286,
+        "mAP50": 0.31720089784334204,
+        "mAP50_95": 0.1707505909108594
+      }
+    },
+    "save_dir": "C:\\Users\\simra\\potato_harvest\\runs\\potato_yolov8n_finetune\\20261112_095630\\evaluation\\original_best_test"
+  },
+  "improved": {
+    "precision": 0.2783447943862239,
+    "recall": 0.6630983841679458,
+    "mAP50": 0.3883896744509308,
+    "mAP50_95": 0.23840519215164072,
+    "per_class": {
+      "Vegetative": {
+        "precision": 0.3264824805483286,
+        "recall": 0.2672874304961154,
+        "mAP50": 0.33203014226851435,
+        "mAP50_95": 0.19271683261822317
+      },
+      "Tuber Bulking": {
+        "precision": 0.31257322911117447,
+        "recall": 0.8648648648648649,
+        "mAP50": 0.4335502659061075,
+        "mAP50_95": 0.297052394437607
+      },
+      "Maturity": {
+        "precision": 0.1959786734991687,
+        "recall": 0.8571428571428571,
+        "mAP50": 0.39958861517817074,
+        "mAP50_95": 0.22544634939909197
+      }
+    },
+    "save_dir": "C:\\Users\\simra\\potato_harvest\\runs\\potato_yolov8n_finetune\\20261112_095630\\evaluation\\improved_best_test"
+  },
+  "overall_comparison": {
+    "Original YOLOv8n": {
+      "precision": 0.2589398714844556,
+      "recall": 0.7158301158301158,
+      "mAP50": 0.37560755159602977,
+      "mAP50_95": 0.23653287910699916
+    },
+    "Fine-tuned YOLOv8n": {
+      "precision": 0.2783447943862239,
+      "recall": 0.6630983841679458,
+      "mAP50": 0.3883896744509308,
+      "mAP50_95": 0.23840519215164072
+    },
+    "difference": {
+      "precision": 0.019404922901768318,
+      "recall": -0.052731731662170045,
+      "mAP50": 0.012782122854901046,
+      "mAP50_95": 0.0018723130446415548
+    }
+  },
+  "class_comparison": {
+    "Vegetative": {
+      "precision": {
+        "original": 0.30679058075668153,
+        "improved": 0.3264824805483286,
+        "difference": 0.019691899791647094
+      },
+      "recall": {
+        "original": 0.3,
+        "improved": 0.2672874304961154,
+        "difference": -0.03271256950388457
+      },
+      "mAP50": {
+        "original": 0.31110535463156214,
+        "improved": 0.33203014226851435,
+        "difference": 0.020924787636952213
+      },
+      "mAP50_95": {
+        "original": 0.19833944893288008,
+        "improved": 0.19271683261822317,
+        "difference": -0.005622616314656909
+      }
+    },
+    "Tuber Bulking": {
+      "precision": {
+        "original": 0.284570678526699,
+        "improved": 0.31257322911117447,
+        "difference": 0.028002550584475483
+      },
+      "recall": {
+        "original": 0.918918918918919,
+        "improved": 0.8648648648648649,
+        "difference": -0.05405405405405406
+      },
+      "mAP50": {
+        "original": 0.49851640231318517,
+        "improved": 0.4335502659061075,
+        "difference": -0.06496613640707766
+      },
+      "mAP50_95": {
+        "original": 0.340508597477258,
+        "improved": 0.297052394437607,
+        "difference": -0.043456203039650976
+      }
+    },
+    "Maturity": {
+      "precision": {
+        "original": 0.1854583551699861,
+        "improved": 0.1959786734991687,
+        "difference": 0.010520318329182599
+      },
+      "recall": {
+        "original": 0.9285714285714286,
+        "improved": 0.8571428571428571,
+        "difference": -0.07142857142857151
+      },
+      "mAP50": {
+        "original": 0.31720089784334204,
+        "improved": 0.39958861517817074,
+        "difference": 0.08238771733482869
+      },
+      "mAP50_95": {
+        "original": 0.1707505909108594,
+        "improved": 0.22544634939909197,
+        "difference": 0.054695758488232576
+      }
+    }
+  },
+  "plot_independent_validation": false,
+  "source_plot_group_overlap": {
+    "train-val": [
+      "T1_T3"
+    ],
+    "train-test": [
+      "T1_T2",
+      "T1_T3"
+    ],
+    "val-test": [
+      "T1_T3"
+    ]
+  }
+}

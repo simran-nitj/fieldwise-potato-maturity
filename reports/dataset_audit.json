@@ -1,0 +1,152 @@
+{
+  "class_names": {
+    "0": "Vegetative",
+    "1": "Tuber Bulking",
+    "2": "Maturity"
+  },
+  "splits": {
+    "train": {
+      "images": 199,
+      "instances": 271,
+      "per_class": {
+        "Vegetative": 95,
+        "Tuber Bulking": 129,
+        "Maturity": 47
+      },
+      "empty_or_unlabeled_images": 0,
+      "empty_or_unlabeled_examples": [],
+      "capture_groups": [
+        "IMG20231225113918",
+        "IMG20231225114040",
+        "IMG20231227114230",
+        "IMG20231227115125",
+        "IMG20231228105347",
+        "IMG20231228111007"
+      ]
+    },
+    "val": {
+      "images": 41,
+      "instances": 48,
+      "per_class": {
+        "Vegetative": 22,
+        "Tuber Bulking": 17,
+        "Maturity": 9
+      },
+      "empty_or_unlabeled_images": 0,
+      "empty_or_unlabeled_examples": [],
+      "capture_groups": [
+        "IMG20231227114428"
+      ]
+    },
+    "test": {
+      "images": 59,
+      "instances": 85,
+      "per_class": {
+        "Vegetative": 20,
+        "Tuber Bulking": 37,
+        "Maturity": 28
+      },
+      "empty_or_unlabeled_images": 0,
+      "empty_or_unlabeled_examples": [],
+      "capture_groups": [
+        "IMG20231224110533",
+        "IMG20231224110751"
+      ]
+    }
+  },
+  "issues": {
+    "invalid_labels": [],
+    "missing_labels": [],
+    "missing_images": [],
+    "orphan_labels": [],
+    "unreadable_images": []
+  },
+  "duplicate_images": {
+    "exact_cross_split": [],
+    "near_cross_split_phash_le_5": []
+  },
+  "capture_group_overlap": {
+    "train-val": [],
+    "train-test": [],
+    "val-test": []
+  },
+  "source_plot_groups_by_split": {
+    "train": [
+      "T1_T1",
+      "T1_T2",
+      "T1_T3"
+    ],
+    "val": [
+      "T1_T3"
+    ],
+    "test": [
+      "T1_T2",
+      "T1_T3"
+    ]
+  },
+  "source_plot_group_overlap": {
+    "train-val": [
+      "T1_T3"
+    ],
+    "train-test": [
+      "T1_T2",
+      "T1_T3"
+    ],
+    "val-test": [
+      "T1_T3"
+    ]
+  },
+  "bounding_boxes_pixels_width": {
+    "min": 113.0003,
+    "median": 323.4998,
+    "p90": 451.4,
+    "max": 637.0003
+  },
+  "bounding_boxes_pixels_height": {
+    "min": 95.0003,
+    "median": 435.0,
+    "p90": 631.7001,
+    "max": 640.0
+  },
+  "bounding_boxes_area_fraction": {
+    "min": 0.0535,
+    "median": 0.3036,
+    "p90": 0.6085,
+    "max": 0.9922
+  },
+  "annotation_csv": {
+    "rows": 404,
+    "per_class": {
+      "Tuber Bulking": 183,
+      "Vegetative": 137,
+      "Maturity": 84
+    }
+  },
+  "similar_image_label_mismatches": [],
+  "preprocessing": {
+    "matched_rgb_pairs": 63,
+    "hsv_lower": [
+      25,
+      40,
+      30
+    ],
+    "hsv_upper": [
+      95,
+      255,
+      255
+    ],
+    "retained_pixel_fraction": {
+      "min": 0.1047,
+      "median": 0.5109,
+      "p90": 0.7168,
+      "max": 0.8308
+    },
+    "yellow_brown_like_pixel_retention": {
+      "min": 0.0128,
+      "median": 0.079,
+      "p90": 0.2113,
+      "max": 0.2752
+    },
+    "interpretation": "The notebook's green mask is HSV [25, 40, 30] to [95, 255, 255]. Yellow/brown color ranges include soil and cannot identify foliage alone. Review RGB images before relying on a green-only mask for maturity cues."
+  }
+}

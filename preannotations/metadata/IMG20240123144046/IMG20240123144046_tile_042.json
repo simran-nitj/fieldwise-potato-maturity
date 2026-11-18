@@ -1,0 +1,41 @@
+{
+  "original_path": "tiles_640_final/IMG20240123144046/IMG20240123144046_tile_042.jpg",
+  "status": "success",
+  "processed_at_utc": "2026-11-01T18:18:46+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.43941324949264526,
+      "x_center": 0.5344789028167725,
+      "y_center": 0.4971217155456543,
+      "width": 0.9310421943664551,
+      "height": 0.9913633346557618
+    },
+    {
+      "class_id": 0,
+      "class_name": "Vegetative",
+      "confidence": 0.3641815483570099,
+      "x_center": 0.4647088050842285,
+      "y_center": 0.49807052612304686,
+      "width": 0.9027822494506836,
+      "height": 0.9932621002197266
+    },
+    {
+      "class_id": 0,
+      "class_name": "Vegetative",
+      "confidence": 0.16657693684101105,
+      "x_center": 0.6364321827888488,
+      "y_center": 0.4966736793518066,
+      "width": 0.7216802358627319,
+      "height": 0.988641357421875
+    }
+  ],
+  "last_error": null,
+  "label_file": "labels/IMG20240123144046/IMG20240123144046_tile_042.txt",
+  "zero_detection_image": null
+}

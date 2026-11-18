@@ -1,0 +1,77 @@
+{
+  "original_path": "tiles_640_final/IMG20240205121347/IMG20240205121347_tile_046.jpg",
+  "status": "success",
+  "processed_at_utc": "2026-11-01T18:19:53+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.37555447220802307,
+      "x_center": 0.2970881462097168,
+      "y_center": 0.5000899791717529,
+      "width": 0.5941762924194336,
+      "height": 0.9998200416564942
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.36670780181884766,
+      "x_center": 0.7263221740722656,
+      "y_center": 0.2264035940170288,
+      "width": 0.5471609115600586,
+      "height": 0.4508682727813721
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.3257010579109192,
+      "x_center": 0.7943057537078857,
+      "y_center": 0.5031770229339599,
+      "width": 0.4113884925842285,
+      "height": 0.992314624786377
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.29351964592933655,
+      "x_center": 0.8714531183242797,
+      "y_center": 0.5062786102294922,
+      "width": 0.2561046123504639,
+      "height": 0.9874427795410157
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.21241329610347748,
+      "x_center": 0.30466585159301757,
+      "y_center": 0.6638025760650634,
+      "width": 0.6093317031860351,
+      "height": 0.672394847869873
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.19680668413639069,
+      "x_center": 0.18936187028884888,
+      "y_center": 0.24304304122924805,
+      "width": 0.37872374057769775,
+      "height": 0.4860860824584961
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.15679636597633362,
+      "x_center": 0.7027800559997559,
+      "y_center": 0.4969928741455078,
+      "width": 0.5918706893920899,
+      "height": 0.9939857482910156
+    }
+  ],
+  "last_error": null,
+  "label_file": "labels/IMG20240205121347/IMG20240205121347_tile_046.txt",
+  "zero_detection_image": null
+}

@@ -1,0 +1,68 @@
+{
+  "original_path": "tiles_640_final/IMG20240209113333/IMG20240209113333_tile_049.jpg",
+  "status": "success",
+  "processed_at_utc": "2026-11-01T18:20:26+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.4144478142261505,
+      "x_center": 0.22954375743865968,
+      "y_center": 0.7034264087677002,
+      "width": 0.45908751487731936,
+      "height": 0.5892821311950683
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.3858952522277832,
+      "x_center": 0.8214205741882324,
+      "y_center": 0.8205225944519043,
+      "width": 0.35715885162353517,
+      "height": 0.35895481109619143
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.3091047704219818,
+      "x_center": 0.7540082931518555,
+      "y_center": 0.22720460891723632,
+      "width": 0.49198341369628906,
+      "height": 0.45440921783447263
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.3024164140224457,
+      "x_center": 0.21097402572631835,
+      "y_center": 0.18902508020401002,
+      "width": 0.4219480514526367,
+      "height": 0.37805016040802003
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.26146191358566284,
+      "x_center": 0.7998162269592285,
+      "y_center": 0.7224470138549804,
+      "width": 0.40036754608154296,
+      "height": 0.5548452377319336
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.17897434532642365,
+      "x_center": 0.2140888214111328,
+      "y_center": 0.4988528251647949,
+      "width": 0.4281776428222656,
+      "height": 0.9970224380493165
+    }
+  ],
+  "last_error": null,
+  "label_file": "labels/IMG20240209113333/IMG20240209113333_tile_049.txt",
+  "zero_detection_image": null
+}

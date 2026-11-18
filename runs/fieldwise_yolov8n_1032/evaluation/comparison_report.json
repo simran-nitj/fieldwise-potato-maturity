@@ -1,0 +1,95 @@
+{
+  "test_set": {
+    "images": 59,
+    "split": "C:\\Users\\simra\\potato_harvest\\potato_yolo_dataset\\images\\test",
+    "plot_groups": [
+      "T1_T2",
+      "T1_T3"
+    ],
+    "original_files_unchanged": true,
+    "test_used_for_training_or_checkpoint_selection": false
+  },
+  "provided_original_baseline_reference": {
+    "precision": 0.25896,
+    "recall": 0.71583,
+    "map50": 0.37561,
+    "map50_95": 0.23653
+  },
+  "original_re_evaluated_on_test": {
+    "checkpoint": "C:\\Users\\simra\\potato_harvest\\runs\\potato_yolov8n\\weights\\best.pt",
+    "precision": 0.258964634075226,
+    "recall": 0.7158301158301158,
+    "map50": 0.37560755159602977,
+    "map50_95": 0.236529089708812,
+    "per_class": {
+      "Vegetative": {
+        "precision": 0.3067855378718128,
+        "recall": 0.3,
+        "map50": 0.31110535463156214,
+        "map50_95": 0.19833944893288008
+      },
+      "Tuber Bulking": {
+        "precision": 0.28464033529143484,
+        "recall": 0.918918918918919,
+        "map50": 0.49851640231318517,
+        "map50_95": 0.3405323124921369
+      },
+      "Maturity": {
+        "precision": 0.18546802906243037,
+        "recall": 0.9285714285714286,
+        "map50": 0.31720089784334204,
+        "map50_95": 0.17071550770141913
+      }
+    },
+    "evaluation_directory": "C:\\Users\\simra\\potato_harvest\\runs\\fieldwise_yolov8n_1032\\evaluation\\models\\original_baseline",
+    "results_dict": {
+      "metrics/precision(B)": 0.258964634075226,
+      "metrics/recall(B)": 0.7158301158301158,
+      "metrics/mAP50(B)": 0.37560755159602977,
+      "metrics/mAP50-95(B)": 0.236529089708812,
+      "fitness": 0.236529089708812
+    }
+  },
+  "improved_model_on_same_test": {
+    "checkpoint": "C:\\Users\\simra\\potato_harvest\\runs\\fieldwise_yolov8n_1032\\checkpoints\\best.pt",
+    "precision": 0.5260341711724028,
+    "recall": 0.4415920646184246,
+    "map50": 0.32036216595227884,
+    "map50_95": 0.1851459607801219,
+    "per_class": {
+      "Vegetative": {
+        "precision": 1.0,
+        "recall": 0.0,
+        "map50": 0.26436099731317403,
+        "map50_95": 0.13568919010536418
+      },
+      "Tuber Bulking": {
+        "precision": 0.2829077109257371,
+        "recall": 0.6216216216216216,
+        "map50": 0.29097297495346225,
+        "map50_95": 0.177947966222519
+      },
+      "Maturity": {
+        "precision": 0.2951948025914713,
+        "recall": 0.7031545722336522,
+        "map50": 0.4057525255902003,
+        "map50_95": 0.2418007260124825
+      }
+    },
+    "evaluation_directory": "C:\\Users\\simra\\potato_harvest\\runs\\fieldwise_yolov8n_1032\\evaluation\\models\\reviewed_t1_t1_best",
+    "results_dict": {
+      "metrics/precision(B)": 0.5260341711724028,
+      "metrics/recall(B)": 0.4415920646184246,
+      "metrics/mAP50(B)": 0.32036216595227884,
+      "metrics/mAP50-95(B)": 0.1851459607801219,
+      "fitness": 0.1851459607801219
+    }
+  },
+  "deltas_vs_re_evaluated_original": {
+    "precision": 0.2670695370971768,
+    "recall": -0.2742380512116912,
+    "map50": -0.05524538564375092,
+    "map50_95": -0.0513831289286901
+  },
+  "interpretation": "Exploratory single-plot training using a mixture of verified ground truth and manually reviewed pseudo-labels. Pseudo-labels are not equivalent to independent ground truth; the internal validation is non-independent at plot level. Accuracy improvement is not claimed unless test metrics support it."
+}

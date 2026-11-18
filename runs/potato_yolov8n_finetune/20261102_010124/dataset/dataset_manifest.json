@@ -1,0 +1,2934 @@
+{
+  "created_at_utc": "2026-11-01T19:31:29.164966+00:00",
+  "verified_dataset": "C:\\Users\\simra\\potato_harvest\\potato_yolo_dataset",
+  "pseudo_label_policy": "only explicit approved/approved_empty rows with corrected label files; all others excluded",
+  "unreviewed_pseudo_images_excluded": 3041,
+  "approved_pseudo_included": 0,
+  "approved_pseudo_excluded_for_group_safety": [],
+  "preserved_test": "C:\\Users\\simra\\potato_harvest\\potato_yolo_dataset\\images\\test",
+  "items": [
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_001.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_001.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_002.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_002.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_003.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_003.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_005.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_005.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_006.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_006.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_007.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_007.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_010.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_010.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_011.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_011.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 3,
+      "class_counts": {
+        "Vegetative": 2,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_012.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_012.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_014.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_014.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_015.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_015.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_016.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_016.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_019.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_019.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_020.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_020.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_021.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_021.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_023.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_023.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_024.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_024.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_025.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_025.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_028.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_028.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_029.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_029.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_030.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_030.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 3,
+      "class_counts": {
+        "Tuber Bulking": 2,
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_033.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_033.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_034.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_034.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_037.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_037.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_038.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_038.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_039.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_039.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_042.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_042.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_043.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_043.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_046.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_046.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_047.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_047.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_048.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_048.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_051.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_051.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_052.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_052.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_055.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_055.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_056.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_056.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_057.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_057.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_060.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_060.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225113918_IMG20231225113918_tile_061.jpg",
+      "label": "labels\\train\\IMG20231225113918_IMG20231225113918_tile_061.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225113918",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_002.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_002.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_003.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_003.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_006.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_006.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_007.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_007.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 3,
+      "class_counts": {
+        "Maturity": 2,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_008.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_008.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 3,
+      "class_counts": {
+        "Maturity": 2,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_011.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_011.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_012.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_012.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_015.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_015.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_016.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_016.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_017.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_017.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_020.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_020.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_021.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_021.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_024.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_024.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_025.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_025.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_026.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_026.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_029.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_029.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_030.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_030.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_033.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_033.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_034.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_034.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_035.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_035.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_038.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_038.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_039.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_039.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_042.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_042.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_043.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_043.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_044.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_044.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_047.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_047.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_048.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_048.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_051.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_051.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_052.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_052.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_053.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_053.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_055.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_055.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_057.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_057.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_060.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_060.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_061.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_061.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231225114040_IMG20231225114040_tile_062.jpg",
+      "label": "labels\\train\\IMG20231225114040_IMG20231225114040_tile_062.txt",
+      "source": "verified",
+      "capture_id": "IMG20231225114040",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_001.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_001.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_002.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_002.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_003.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_003.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_005.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_005.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_006.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_006.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_007.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_007.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_008.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_008.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_010.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_010.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_011.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_011.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_012.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_012.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_014.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_014.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_015.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_015.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_016.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_016.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_019.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_019.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_020.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_020.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_021.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_021.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_024.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_024.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_025.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_025.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_026.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_026.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_028.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_028.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_029.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_029.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_030.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_030.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_033.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_033.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_034.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_034.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_035.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_035.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_037.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_037.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_038.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_038.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 3,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_039.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_039.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_042.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_042.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_043.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_043.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_044.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_044.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_046.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_046.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_047.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_047.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_048.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_048.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_051.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_051.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_052.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_052.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_053.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_053.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_055.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_055.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_056.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_056.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_057.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_057.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_060.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_060.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_061.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_061.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227114230_IMG20231227114230_tile_062.jpg",
+      "label": "labels\\train\\IMG20231227114230_IMG20231227114230_tile_062.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114230",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_001.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_001.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_002.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_002.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_003.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_003.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_005.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_005.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_006.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_006.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_007.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_007.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_011.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_011.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_012.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_012.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_014.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_014.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_015.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_015.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_016.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_016.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_020.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_020.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_021.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_021.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_023.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_023.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_024.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_024.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_025.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_025.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_028.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_028.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_029.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_029.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_030.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_030.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_037.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_037.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_038.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_038.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_039.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_039.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_042.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_042.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_043.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_043.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_044.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_044.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_046.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_046.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_047.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_047.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_048.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_048.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_050.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_050.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_051.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_051.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_052.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_052.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_053.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_053.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_055.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_055.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_056.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_056.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_057.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_057.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_059.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_059.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_060.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_060.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_061.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_061.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231227115125_IMG20231227115125_tile_062.jpg",
+      "label": "labels\\train\\IMG20231227115125_IMG20231227115125_tile_062.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227115125",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_001.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_001.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_002.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_002.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_005.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_005.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_006.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_006.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_007.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_007.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_010.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_010.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_011.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_011.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_014.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_014.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_015.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_015.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_016.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_016.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_020.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_020.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_023.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_023.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_024.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_024.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_025.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_025.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_028.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_028.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_029.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_029.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_037.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_037.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_038.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_038.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_039.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_039.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_041.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_041.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_042.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_042.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_043.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_043.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_046.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_046.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_047.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_047.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_048.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_048.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_050.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_050.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_051.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_051.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_052.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_052.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_053.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_053.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_055.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_055.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_056.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_056.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_057.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_057.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 2
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_059.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_059.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_060.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_060.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228105347_IMG20231228105347_tile_061.jpg",
+      "label": "labels\\train\\IMG20231228105347_IMG20231228105347_tile_061.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228105347",
+      "source_group": "T1_T1",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228111007_IMG20231228111007_tile_001.jpg",
+      "label": "labels\\train\\IMG20231228111007_IMG20231228111007_tile_001.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228111007",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228111007_IMG20231228111007_tile_002.jpg",
+      "label": "labels\\train\\IMG20231228111007_IMG20231228111007_tile_002.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228111007",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228111007_IMG20231228111007_tile_003.jpg",
+      "label": "labels\\train\\IMG20231228111007_IMG20231228111007_tile_003.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228111007",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228111007_IMG20231228111007_tile_005.jpg",
+      "label": "labels\\train\\IMG20231228111007_IMG20231228111007_tile_005.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228111007",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228111007_IMG20231228111007_tile_006.jpg",
+      "label": "labels\\train\\IMG20231228111007_IMG20231228111007_tile_006.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228111007",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228111007_IMG20231228111007_tile_007.jpg",
+      "label": "labels\\train\\IMG20231228111007_IMG20231228111007_tile_007.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228111007",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228111007_IMG20231228111007_tile_010.jpg",
+      "label": "labels\\train\\IMG20231228111007_IMG20231228111007_tile_010.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228111007",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228111007_IMG20231228111007_tile_011.jpg",
+      "label": "labels\\train\\IMG20231228111007_IMG20231228111007_tile_011.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228111007",
+      "source_group": "T1_T2",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "train",
+      "image": "images\\train\\IMG20231228111007_IMG20231228111007_tile_012.jpg",
+      "label": "labels\\train\\IMG20231228111007_IMG20231228111007_tile_012.txt",
+      "source": "verified",
+      "capture_id": "IMG20231228111007",
+      "source_group": "T1_T2",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_002.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_002.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Maturity": 2
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_003.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_003.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_004.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_004.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_006.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_006.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_007.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_007.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 2
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_008.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_008.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_011.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_011.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_012.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_012.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_013.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_013.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_015.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_015.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_016.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_016.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_017.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_017.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_020.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_020.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_021.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_021.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_022.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_022.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_024.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_024.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_025.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_025.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 2
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_026.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_026.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_029.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_029.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_030.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_030.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_031.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_031.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_033.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_033.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_034.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_034.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_035.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_035.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_038.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_038.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_039.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_039.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_042.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_042.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_043.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_043.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Tuber Bulking": 1,
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_044.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_044.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_046.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_046.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_047.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_047.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_048.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_048.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_051.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_051.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_052.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_052.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 2,
+      "class_counts": {
+        "Vegetative": 1,
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_053.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_053.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_055.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_055.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_056.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_056.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Maturity": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_057.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_057.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_060.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_060.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_061.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_061.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Vegetative": 1
+      }
+    },
+    {
+      "split": "val",
+      "image": "images\\val\\IMG20231227114428_IMG20231227114428_tile_062.jpg",
+      "label": "labels\\val\\IMG20231227114428_IMG20231227114428_tile_062.txt",
+      "source": "verified",
+      "capture_id": "IMG20231227114428",
+      "source_group": "T1_T3",
+      "box_count": 1,
+      "class_counts": {
+        "Tuber Bulking": 1
+      }
+    }
+  ]
+}

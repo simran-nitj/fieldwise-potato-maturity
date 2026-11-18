@@ -1,0 +1,68 @@
+{
+  "original_path": "tiles_640_final/IMG20240130122409/IMG20240130122409_tile_013.jpg",
+  "status": "success",
+  "processed_at_utc": "2026-11-01T18:19:09+00:00",
+  "confidence_threshold": 0.15,
+  "model_checkpoint": "best.pt",
+  "device_used": "CUDA",
+  "attempts": 1,
+  "detections": [
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.24321773648262024,
+      "x_center": 0.7482479572296142,
+      "y_center": 0.4533207416534424,
+      "width": 0.49849729537963866,
+      "height": 0.8946930885314941
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.20945577323436737,
+      "x_center": 0.10391278266906738,
+      "y_center": 0.5861322402954101,
+      "width": 0.20782556533813476,
+      "height": 0.8129955291748047
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.1652042269706726,
+      "x_center": 0.14773905277252197,
+      "y_center": 0.12563138008117675,
+      "width": 0.29547810554504395,
+      "height": 0.25108137130737307
+    },
+    {
+      "class_id": 2,
+      "class_name": "Maturity",
+      "confidence": 0.16161440312862396,
+      "x_center": 0.7294528007507324,
+      "y_center": 0.7510965824127197,
+      "width": 0.5410943984985351,
+      "height": 0.4917460441589355
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.16126301884651184,
+      "x_center": 0.14373993873596191,
+      "y_center": 0.12366845607757568,
+      "width": 0.28747987747192383,
+      "height": 0.24699912071228028
+    },
+    {
+      "class_id": 1,
+      "class_name": "Tuber Bulking",
+      "confidence": 0.1567898839712143,
+      "x_center": 0.7187036514282227,
+      "y_center": 0.7495633125305176,
+      "width": 0.5605312347412109,
+      "height": 0.4923501968383789
+    }
+  ],
+  "last_error": null,
+  "label_file": "labels/IMG20240130122409/IMG20240130122409_tile_013.txt",
+  "zero_detection_image": null
+}
